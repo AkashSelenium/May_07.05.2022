@@ -37,6 +37,7 @@ public class AmazonLogin {
 	public void using_Valid_Email_Valid_Password() {
 		System.out.println("Test Method 2");
 		Driver.findElement(By.name("email")).sendKeys("9789411120");
+		Driver.findElement(By.id("pass")).sendKeys("7894561565");
 	}
 
 	@When("Click ON Login button")
