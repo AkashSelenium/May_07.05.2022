@@ -39,6 +39,7 @@ public class AmazonLogin {
 		System.out.println("Test Method 2");
 		Driver.findElement(By.name("email")).sendKeys("9789411120");
 		Driver.findElement(By.id("pass")).sendKeys("7894561565");
+		Driver.findElement(By.name("login")).click();
 	}
 
 	@When("Click ON Login button")
