@@ -35,6 +35,7 @@ public class AmazonLogin {
 
 	@When("Using Valid Email Valid Password")
 	public void using_Valid_Email_Valid_Password() {
+		System.out.println("Meesho");
 		System.out.println("Test Method 2");
 		Driver.findElement(By.name("email")).sendKeys("9789411120");
 		Driver.findElement(By.id("pass")).sendKeys("7894561565");
@@ -42,11 +43,13 @@ public class AmazonLogin {
 
 	@When("Click ON Login button")
 	public void click_ON_Login_button() {
+		System.out.println("Flipkart");
 		System.out.println("Test Method 3");
 	}
 
 	@Then("Homepage Should be Displayed")
 	public void homepage_Should_be_Displayed() {
+		System.out.println("Amazon");
 		System.out.println("Test Method 4");
 	}
 
