@@ -26,7 +26,7 @@ public class AmazonLogin {
 
 	@Given("Using Amazon Url user have to open Amazon Login Page")
 	public void using_Amazon_Url_user_have_to_open_Amazon_Login_Page() {
-
+		System.out.println("Amazon Login page");
 		System.out.println("TestMethod 3");
 
 	
